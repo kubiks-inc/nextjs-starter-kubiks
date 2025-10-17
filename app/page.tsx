@@ -103,7 +103,7 @@ export default function Home() {
 					</p>
 					<div className="flex gap-4 flex-col sm:flex-row mt-4">
 						<a
-							href="https://vercel.com/new/clone?repository-url=https://github.com/kubiks-inc/nextjs-starter-kubiks&integration-ids=oac_gPFd2R7qKOGCcW8VgSUa4WQL"
+							href="https://vercel.com/new/clone?repository-url=https://github.com/kubiks-inc/nextjs-starter-kubiks&integration-ids=oac_2wJzHeC4AgDFmeeiknGF9uq1"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="rounded-lg border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-base h-12 px-6"
