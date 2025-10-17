@@ -220,7 +220,7 @@ export default function Home() {
 								Install with AI in Seconds
 							</h3>
 							<p className="text-sm text-foreground/60 mb-6">
-								After deploying, our AI automatically installs and configures integrations for your stack based on what you're using.
+								After deploying, our AI automatically installs and configures integrations for your stack based on what you&apos;re using.
 							</p>
 							<div className="rounded-lg overflow-hidden border border-black/[.08] dark:border-white/[.145] shadow-lg">
 								<Image
