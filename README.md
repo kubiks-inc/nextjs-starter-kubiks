@@ -7,6 +7,8 @@
 
 A Next.js 15 starter template ready for [Kubiks](https://kubiks.ai) - the OpenTelemetry-native observability platform. Includes baseline OpenTelemetry configuration so you can add integrations and start monitoring immediately.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/kubiks-inc/nextjs-starter-kubiks&integration-ids=oac_2wJzHeC4AgDFmeeiknGF9uq1)
+
 ## What's Included
 
 - **Next.js 15** with App Router
