@@ -99,12 +99,24 @@ export default function Home() {
 						{/* Plus Sign */}
 						<span className="text-2xl text-foreground/40">+</span>
 						
-						{/* Vercel Logo + Text */}
-						<div className="flex items-center gap-3">
-							<svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
-								<path d="M12 2L2 19.7778h20L12 2z"/>
-							</svg>
-							<span className="text-2xl font-semibold">Vercel</span>
+						{/* Vercel Logotype */}
+						<div className="flex items-center">
+							<Image
+								src="/vercel-logotype-dark.svg"
+								alt="Vercel"
+								width={120}
+								height={28}
+								priority
+								className="hidden dark:block"
+							/>
+							<Image
+								src="/vercel-logotype-light.svg"
+								alt="Vercel"
+								width={120}
+								height={28}
+								priority
+								className="block dark:hidden"
+							/>
 						</div>
 					</div>
 					<h1 className="text-4xl md:text-6xl font-bold tracking-tight max-w-4xl">
