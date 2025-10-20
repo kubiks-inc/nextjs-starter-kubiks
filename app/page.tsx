@@ -83,16 +83,32 @@ export default function Home() {
 			{/* Hero Section */}
 			<main className="container mx-auto px-4 py-16 md:py-24">
 				<div className="flex flex-col items-center text-center gap-8 mb-20">
-					<Image
-						src="/kubiks.svg"
-						alt="Kubiks logo"
-						width={120}
-						height={120}
-						priority
-						className="mb-4"
-					/>
+					<div className="flex items-center gap-6 mb-4">
+						{/* Kubiks Logo + Text */}
+						<div className="flex items-center gap-3">
+							<Image
+								src="/kubiks.svg"
+								alt="Kubiks logo"
+								width={48}
+								height={48}
+								priority
+							/>
+							<span className="text-2xl font-semibold">Kubiks</span>
+						</div>
+						
+						{/* Plus Sign */}
+						<span className="text-2xl text-foreground/40">+</span>
+						
+						{/* Vercel Logo + Text */}
+						<div className="flex items-center gap-3">
+							<svg className="w-12 h-12" viewBox="0 0 24 24" fill="currentColor">
+								<path d="M12 2L2 19.7778h20L12 2z"/>
+							</svg>
+							<span className="text-2xl font-semibold">Vercel</span>
+						</div>
+					</div>
 					<h1 className="text-4xl md:text-6xl font-bold tracking-tight max-w-4xl">
-						Next.js template to get started with{" "}
+						Next.js with{" "}
 						<span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
 							Kubiks
 						</span>
